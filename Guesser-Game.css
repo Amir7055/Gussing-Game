@@ -1,0 +1,46 @@
+.container{
+    height: 100%;
+}
+.wrapper{
+    width: 600px;
+    background-color: rgb(6 5 74);
+    padding: 40px;
+    margin: auto;
+    margin-top: 6rem;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.uservalue {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #28d9f5c7;
+    margin: auto;
+}
+#submit {
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border-color:#28d9f5c7;
+    margin-top: 9px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(211, 206, 206);
+    border-color:rgb(247, 100, 100) ;
+    color: black;
+
+}
+.clear {
+    width: 130px;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: #4ddbe9;
+    cursor: pointer;
+} 
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Guesser-Game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h2>Gussing Game</h2>
+        <p>Please guess a number between 1-10</p>
+
+        <form id="form" action="">
+          <div class="userItem">
+            <input class="uservalue" type="text" placeholder="Enter your gussing number" required />
+            <input type="submit" id="submit" />
+            <div class="game-result">
+              <p class="result-title"></p>
+              <h3 class="remaning"></h3>
+              <h4 class="win-part"></h4>
+              <h4 class="lost-part"></h4>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="Guesser-Game.js"></script>
+  </body>
+</html>
